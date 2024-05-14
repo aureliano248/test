@@ -1,3 +1,19 @@
+# overview
+1. `git add filename`
+2. `git commit -m "your message"`
+    - commit can be executed only when at least one add/rm has been executed. 
+3. `git push`
+
+others:
+
+- `git status`
+- `git log` to view commit log
+- `git rm` remove the file in staging area **and directory**
+- `git rm --cached` remove the file in staging area
+- `git restore <file>` to discard changes since last git add.
+- `git restore --staged <file>` to unstage.
+
+
 # set your name and email
 
 instruction to view your config
@@ -17,3 +33,9 @@ git config --global user.email "YOUR_EMAIL"
 
 git config user.name "Mona Lisa"
 git config user.email "YOUR_EMAIL"
+
+
+
+# .gitignore
+- creat manually
+- using instruction `touch .gitignore`
