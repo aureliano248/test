@@ -34,8 +34,15 @@ git config --global user.email "YOUR_EMAIL"
 git config user.name "Mona Lisa"
 git config user.email "YOUR_EMAIL"
 
-
-
 # .gitignore
 - creat manually
 - using instruction `touch .gitignore`
+
+# branch
+- `git branch` to view all branches.
+- `git checkout -b <new branch name>` to create a new branch.
+- 
+
+
+# addition
+- `git remote -v` '-v' represents verbose.
